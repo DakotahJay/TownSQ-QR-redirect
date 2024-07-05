@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        if (/android/i.test(navigator.userAgent)) {
+            window.location = "https://play.google.com/store/apps/details?id=br.socialcondo.app&hl=en_US&gl=US";
+        } else if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+            window.location = "https://apps.apple.com/us/app/townsq/id945419466";
+        } else {
+            window.location = "https://example.com"; // Fallback URL
+        }
+    </script>
+</head>
+<body>
+    <p>Redirecting to the appropriate app store...</p>
+</body>
+</html>
